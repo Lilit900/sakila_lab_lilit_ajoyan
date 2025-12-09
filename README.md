@@ -52,3 +52,11 @@ ERD of the Sakila database:
 
 ## Project Structure
 *(Will be updated when folders are created.)*
+
+## Workflow Overview
+- Initialize project and set up virtual environment
+- Create Python script to load Sakila SQLite database into DuckDB
+- Install dependencies: ipykernel, dlt[sql_database], dlt[parquet], pandas, dlt[duckdb], matplotlib
+- Convert SQLite → DuckDB and register tables
+- Run SQL queries and analyze results in Jupyter
+- Build dashboard in Evidence
