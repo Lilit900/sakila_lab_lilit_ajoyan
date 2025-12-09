@@ -1,12 +1,20 @@
 # sakila_lab_lilit_ajoyan
 
-In this lab I will perform data analysis on the **Sakila database** using:
-- Python (pandas + DuckDB)
-- Jupyter Notebook
-- SQLite → DuckDB conversion
-- Evidence (for dashboard + visualizations)
+This project involves performing data analysis on the Sakila database using 
+Python, DuckDB, pandas, and Evidence. The lab covers data ingestion,
+exploratory data analysis (EDA), and building interactive dashboards to present insights from movie rental data.
 
-The goal is to explore the Sakila dataset, run SQL queries through DuckDB, analyze results in pandas, and finally build an interactive dashboard with Evidence.
+---
+
+
+# Purpose and Goals
+
+The purpose of this lab is to explore and analyze the Sakila database using Python, DuckDB, and pandas. The main objectives are:
+- Convert the existing SQLite Sakila database into DuckDB for efficient querying.
+- Explore and analyze movie rental data to understand customer behavior, film categories, rentals, and revenue.
+- Run SQL queries through DuckDB and analyze results in pandas.
+- Build interactive visualizations and a dashboard with Evidence to summarize key findings.
+
 
 ---
 
@@ -46,20 +54,40 @@ ERD of the Sakila database:
 ---
 
 ## How to Run
+- Place the database in your project folder
+- Activate the virtual environment : uv init
+- Install dependencies: uv add ipykernel "dlt[sql_database]" "dlt[parquet]" pandas matplotlib
 - "load_sakila_sqlite_duckdb.py": Python script to load Sakila SQLite database into DuckDB using DLT
+- uv add "dlt[duckdb]"
+- Load the SQLite Sakila database into DuckDB: uv run python load_sakila_sqlite_duckdb.py
+- Open sakila_lab_analysis.ipynb in Jupyter Notebook, connect to DuckDB, and register tables for analysis.
+
+
 
 
 ---
 
 ## Project Structure
-*(Will be updated when folders are created.)*
+sakila_lab_lilit_ajoyan/
+│
+├── .venv/ # Virtual environment
+├── data/ # Database and images
+│ ├── sqlite-sakila.db # Original SQLite Sakila database
+│ ├── sakila.duckdb # DuckDB database (generated)
+│ └── SQLite3 Sakila Sample Database ERD.png
+│
+├── load_sakila_sqlite_duckdb.py # Python script: load SQLite → DuckDB using DLT
+├── sakila_lab_analysis.ipynb # Jupyter Notebook: EDA and SQL queries
+├── README.md # Project overview, instructions, workflow
+├── pyproject.toml # Python project configuration
+├── uv.lock # Dependency lock file
+├── .gitignore
+└── .python-version # Python version file
 
 ## Workflow Overview
-- Initialize project and set up virtual environment
-- Create Python script to load Sakila SQLite database into DuckDB
-- Install dependencies: ipykernel, dlt[sql_database], dlt[parquet], pandas, dlt[duckdb], matplotlib
-- Convert SQLite → DuckDB and register tables
-- Connect to DuckDB in Jupyter Notebook and inspect database schema
-- Load all tables into Python and register them for SQL queries
-- Run SQL queries and analyze results in Jupyter
-- Build dashboard in Evidence
+- Initialize project and set up the virtual environment.
+- Convert SQLite Sakila database into DuckDB.
+- Install required Python dependencies.
+- Load and register database tables in pandas.
+- Explore the database using SQL queries and pandas for analysis.
+- Generate visualizations and build an interactive dashboard with Evidence.
