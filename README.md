@@ -30,7 +30,9 @@ This project focuses on:
 ---
 
 ## Screenshots / Images
-*(Will be added later.)*
+ERD of the Sakila database:
+
+![Sakila ERD](data/SQLite3 Sakila Sample Database ERD.png)
 
 ---
 
