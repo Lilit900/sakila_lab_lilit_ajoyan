@@ -46,7 +46,8 @@ ERD of the Sakila database:
 ---
 
 ## How to Run
-*(Instructions will be added later.)*
+- "load_sakila_sqlite_duckdb.py": Python script to load Sakila SQLite database into DuckDB using DLT
+
 
 ---
 
@@ -58,5 +59,7 @@ ERD of the Sakila database:
 - Create Python script to load Sakila SQLite database into DuckDB
 - Install dependencies: ipykernel, dlt[sql_database], dlt[parquet], pandas, dlt[duckdb], matplotlib
 - Convert SQLite → DuckDB and register tables
+- Connect to DuckDB in Jupyter Notebook and inspect database schema
+- Load all tables into Python and register them for SQL queries
 - Run SQL queries and analyze results in Jupyter
 - Build dashboard in Evidence
