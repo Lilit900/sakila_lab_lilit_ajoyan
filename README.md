@@ -41,7 +41,6 @@ This project focuses on:
 ---
 
 ## Screenshots / Images
-ERD of the Sakila database:
 
 ![Sakila_ERD](data/SQLite3 Sakila Sample Database ERD.png)
 ![Top 10 Fastest Returning Customers](customer_rental_duration_top10.png)
