@@ -65,7 +65,7 @@ This project focuses on:
 - Load the SQLite Sakila database into DuckDB: uv run python load_sakila_sqlite_duckdb.py
 - Open sakila_lab_analysis.ipynb in Jupyter Notebook, connect to DuckDB, and register tables for analysis.
 - Perform EDA in Jupyter Notebook, including custom questions such as customer rental durations
-- Generate bar charts from refined tables and save as images for reporting or dashboard use
+- Generate bar charts and pie charts from refined tables and save as images for reporting or dashboard use
 
 
 
