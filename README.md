@@ -71,19 +71,22 @@ This project focuses on:
 ---
 
 ## Project Structure
-sakila_lab_lilit_ajoyan/
-├── .venv/                     # Virtual environment
-├── data/                      # Database and images
-│   ├── sqlite-sakila.db       # Original SQLite Sakila database
-│   ├── sakila.duckdb          # DuckDB database (generated)
-│   └── SQLite3-Sakila-Sample-Database-ERD.png    # ERD image
-├── load_sakila_sqlite_duckdb.py  # Python script: load SQLite → DuckDB using DLT
-├── sakila_lab_analysis.ipynb      # Jupyter Notebook: EDA and SQL queries
-├── README.md                      # Project overview, instructions, workflow
-├── pyproject.toml                  # Python project configuration
-├── uv.lock                         # Dependency lock file
+
+```
+├── .venv/                                   # Virtual environment
+├── data/                                     # Database and images
+│   ├── sqlite-sakila.db                      # Original SQLite Sakila database
+│   ├── sakila.duckdb                         # DuckDB database (generated)
+│   └── SQLite3-Sakila-Sample-Database-ERD.png # ERD image
+├── load_sakila_sqlite_duckdb.py              # Load SQLite → DuckDB using DLT
+├── sakila_lab_analysis.ipynb                 # Analysis notebook
+├── README.md                                 # Project documentation
+├── pyproject.toml                             # Project dependencies
+├── uv.lock                                    # Lock file
 ├── .gitignore
-└── .python-version                 # Python version file
+└── .python-version                            # Python version
+```
+
 
 
 ## Workflow Overview
