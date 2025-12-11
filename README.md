@@ -23,7 +23,7 @@ The purpose of this lab is to explore and analyze the Sakila database using Pyth
 - Register database tables in pandas
 - Run SQL queries and analyze results
 - Create refined tables for analysis (e.g., customer_rental_duration)
-- Build visualizations and saved charts as images
+- Build visualizations (bar charts, pie charts) and saved charts as images
 
 
 
@@ -108,11 +108,11 @@ These tables are used for visualizations and dashboards.
 - `customer_rental_duration` — average rental duration and total rentals per customer
 - `rating_total_days` — total rental days aggregated by film rating
 - `top_customers_total_spend` — top 5 customers by total spend
+- `category_revenue` — total revenue aggregated per film category 
+
 
 ## Task Progress
 - Task 1: ✅ Completed
-- Task 2: ⚠️ Partial 
-  - Pending: 
-    - Revenue per film category (bar chart)
-- Task 3: ⬜ Pending
+- Task 2: ✅ Completed
+- Task 3 (Bonus)  BI Report ⬜ Pending
 - Task 4: ⬜ Pending
