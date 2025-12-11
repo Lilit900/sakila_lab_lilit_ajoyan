@@ -88,7 +88,7 @@ This project focuses on:
 └── .python-version                            # Python version
 ```
 
-
+---
 
 ## Workflow Overview
 - Initialize project and set up the virtual environment.
@@ -98,11 +98,15 @@ This project focuses on:
 - Explore the database using SQL queries and pandas for analysis.
 - Generate visualizations and build an interactive dashboard with Evidence.
 
+---
+
 
 ## Refined Schema
 
 Refined tables are created from the staging schema to provide clean, analysis-ready data.  
 These tables are used for visualizations and dashboards.
+
+---
 
 ### Current Refined Tables
 - `customer_rental_duration` — average rental duration and total rentals per customer
@@ -110,9 +114,23 @@ These tables are used for visualizations and dashboards.
 - `top_customers_total_spend` — top 5 customers by total spend
 - `category_revenue` — total revenue aggregated per film category 
 
+---
 
 ## Task Progress
 - Task 1: ✅ Completed
 - Task 2: ✅ Completed
 - Task 3 (Bonus)  BI Report ⬜ Pending
 - Task 4: ⬜ Pending
+
+---
+
+## Running the Evidence Dashboard
+To start the Evidence dashboard, run:
+
+```bash
+npm install
+npm run sources
+npm run dev -- --host 0.0.0.0
+```
+For more detailed instructions on using Evidence, see [EVIDENCE_TEMPLATE_README.md](EVIDENCE_TEMPLATE_README.md).
+
