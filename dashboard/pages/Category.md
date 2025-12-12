@@ -1,6 +1,4 @@
-# Film Revenue Dashboard
- 
-## Film Categories Overview
+# Film Categories Overview
 
 ```sql Film
 FROM sakila.category_film;

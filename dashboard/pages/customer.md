@@ -3,7 +3,7 @@
 This page shows insights into customer behavior in the Sakila database, including top-spending customers and their rental activity.
 
 
-## Top Customers
+## Top 8 Customers
 
 
 ```sql Customers
@@ -12,7 +12,7 @@ FROM sakila.customer;
 ```
 ---
 
-###  A Barchart  
+##  A Barchart  
 
 <BarChart
     data={Customers}
