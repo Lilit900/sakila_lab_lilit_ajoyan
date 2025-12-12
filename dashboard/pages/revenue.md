@@ -3,11 +3,6 @@
 This page shows total revenue for each film category in the Sakila database.  
 Use the chart and table below to explore which categories generate the most revenue.
 
-<Details title='How to edit this page'>
-  This page is located at `/pages/revenue.md`.  
-  You can edit this markdown file and save it to see changes live in your browser.
-</Details>
-
 ---
 
 ## Revenue Table
