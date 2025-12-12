@@ -21,7 +21,27 @@ FROM sakila.category;
 />
 
 ---
+```sql Film
+FROM sakila.category_film;
 
+```
+
+## Analyzing films by categories
+
+<Dropdown data={Film} name=category_name value=category_name
+title="Select a category" >
+</Dropdown>
+
+
+```sql Film_Categories
+SELECT
+    title
+FROM sakila.category_film
+WHERE category_name = '${inputs.category_name.value}'
+ORDER BY title;
+```
+
+---
 ## Insights
 
 - Categories with the highest revenue appear at the top of the chart.
