@@ -66,7 +66,7 @@ used in this dashboard.
 
 ## About the Author
 
-This dashboard was created by Lilit Ajoyan, an aspiring **MLOps engineer** with a strong interest in data analytics, SQL, and Python-driven insights, as part of a data analytics project
+This dashboard was created by [Lilit Ajoyan](https://www.linkedin.com/in/lilit-ajoyan-1565b4183/) an aspiring **MLOps engineer** with a strong interest in data analytics, SQL, and Python-driven insights, as part of a data analytics project
 focusing on interactive visualization.
 
 ## Project Repository
